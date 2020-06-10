@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+   <meta charset ="UTF-8">
+
+   <title>Ejercicio Formulario</title>
+   <script type="text/javascript" src= "../ArraysYFunciones/formulario.js"></script>
+    <style>
+        .box_dashed{
+            width: 200px;
+            border: dashed purple;
+            height: 250px;
+        }
+    </style>
+</head>
+    <h1>Formulario</h1>
+    <body>
+    <form  action ="" method= "POST" id="formulario" onsubmit="return false">
+      
+        <div>
+            <label for= "Nombre">Nombre: </label>
+            <input type="text" name="nombre" id = "nombre"><br>
+
+            <label  for = "Paterno">Paterno: </label>
+            <input type = "text" name ="Paterno" id="paterno"><br>
+            
+            <laberl for= "MAterno">Materno: </laberl>
+            <input type= "text" name="Materno" id="materno"> <br>
+
+            <labe for ="edad">Edad: </label>
+            <input type= "text" name ="Edad" id ="edad"><br>
+            
+            <input type="submit" value="Enviar" id= "submit" >
+        </div>
+        <div class="box_dashed">
+            <h3>Datos  enviados</h3>
+            <hr>
+
+            <p id = "nombre">
+                Nombre: <span></span>
+            </p>
+
+           <p id= "paterno">
+               Paterno: <span></span>
+           </p>
+           <p id= "materno">
+               Materno: <span></span>
+
+           </p>
+           <p id = "edad">
+              Edad: <span></span>
+           </p>
+
+
+
+
+        </div>
+
+    </form>
+
+    </body>
+
+</html>
